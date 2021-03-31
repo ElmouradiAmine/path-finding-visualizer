@@ -1,10 +1,10 @@
-import React from "react";
+import React, { ReactElement } from "react";
 import { Grid } from "@chakra-ui/react";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import Board from "../components/Board/Board";
 
-function App(): JSX.Element {
+function App(): ReactElement {
   return (
     <Grid
       templateColumns="1fr"
